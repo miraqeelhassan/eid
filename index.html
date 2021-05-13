@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EID-UL-FITR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <img src="mosque.jpg" class="mosque">
+        <header>
+            <a href="#" class="logo">EID-UL-FITR</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" style="--i:1;" class="active">Home</a></li>
+                <li><a href="#" style="--i:2;">About</a></li>
+                <li><a href="#" style="--i:3;">Calender</a></li>
+                <li><a href="#" style="--i:4;">Blog</a></li>
+                <li><a href="#" style="--i:5;">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textbox">
+            <h2><b>EID-UL-FITR MUBARAK</b></h2>
+            <p><b>Eid ul-Fitr is one of the most celebrated festivals of Muslims and traditionally a time for family and festivities. Falling on the first day of the month of Shawwal, the festival traditionally lasts one to three days and is eagerly anticipated after the month of fasting.
+                However, it is the second time Eid ul-Fitr celebrations will be observed under the shadow of pandemic. But people are geared up to enjoy the festival after a month-long fasting with their families and loved ones within the confines of their homes</p></b>
+            <a href="#">Read More</a>
+        </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        }
+    </script>   
+</body>
+</html>
